@@ -1,2 +1,2 @@
 # LeadCrafter
-## Landing Page for new SaaS
+Landing Page for new SaaS
