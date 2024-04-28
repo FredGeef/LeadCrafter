@@ -829,7 +829,7 @@ p {
 }
 
 .ud-about-content {
-  /* max-width: 500px; */ /* Removed as did not want only 2/3 column coverage but 3/3 column coverage */
+  max-width: 500px; 
 }
 
 .ud-about-content .tag {
@@ -1421,7 +1421,7 @@ p {
 
 @media (max-width: 767px) {
   .ud-contact-form-wrapper {
-    padding: 40px 30px;
+    padding: 20px 0px;
   }
 }
 
@@ -2626,4 +2626,105 @@ p {
 #mc-embedded-subscribe.ud-main-btn {
   font-size: 15px;
   padding: 7px 7px;  /* Example reduced padding */
+}
+
+
+/* ===== Terms CSS ===== */
+.ud-terms {
+  background: #f3f4fe;
+  padding: 120px 0;
+}
+
+@media (max-width: 767px) {
+  .ud-terms {
+    padding: 80px 0;
+  }
+}
+
+.ud-terms-wrapper {
+  background: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .ud-terms-wrapper {
+    display: block;
+  }
+}
+
+.ud-terms-content-wrapper {
+  padding: 70px;
+}
+
+@media (max-width: 767px) {
+  .ud-terms-content-wrapper {
+    padding: 50px 30px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .ud-terms-content-wrapper {
+    padding: 50px;
+  }
+}
+
+.ud-terms-content {
+  /* max-width: 500px; */ /* Removed as did not want only 2/3 column coverage but 3/3 column coverage */
+}
+
+.ud-terms-content .tag {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--white);
+  background: var(--primary-color);
+  padding: 5px 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.ud-terms-content h4 {
+  padding-top: 30px;
+  color: #566f8f;
+}
+.ud-terms-content h5 {
+  padding-top: 30px;
+  color: #566f8f;
+}
+
+.ud-terms-content h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .ud-terms-content h2 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+
+.ud-terms-content p {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.ud-terms-content .ud-main-btn:hover {
+  background: #2748b4;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .ud-terms-image {
+    text-align: center;
+  }
 }
