@@ -829,7 +829,7 @@ p {
 }
 
 .ud-about-content {
-  max-width: 500px;
+  /* max-width: 500px; */ /* Removed as did not want only 2/3 column coverage but 3/3 column coverage */
 }
 
 .ud-about-content .tag {
@@ -840,6 +840,15 @@ p {
   padding: 5px 20px;
   display: inline-block;
   margin-bottom: 20px;
+}
+
+.ud-about-content h4 {
+  padding-top: 30px;
+  color: #566f8f;
+}
+.ud-about-content h5 {
+  padding-top: 30px;
+  color: #566f8f;
 }
 
 .ud-about-content h2 {
@@ -2611,3 +2620,10 @@ p {
   }
 }
 /*# sourceMappingURL=ud-styles.css.map */
+
+
+/*===== Smaller Button For Email Form =====*/
+#mc-embedded-subscribe.ud-main-btn {
+  font-size: 15px;
+  padding: 7px 7px;  /* Example reduced padding */
+}
